@@ -3,25 +3,38 @@
 <html>
 
 <head>
-    <title>Grids Demo!</title>
+    <title>Media Queries Demo!</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="Author" content="Angel Gonzalez">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 
 <body>
-    <div class="demoGridContainer">
-        <div class="column1">
-            <h3>This is my column 1</h3>
-            <img src="../images/pexels-beyza-yalcin-153182170-20554300.jpg" width="100px"/>
+    <div id="nav">
+        <a href="#">Blog</a>
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="single-column-layout intro">
+        <div class="image-container">
+            <img src="../images/pexels-photo-598917.webp" alt="photographer">
         </div>
-        <div class="column2">
-            <h3>This is my column 2</h3>
-            <img src="../images/pexels-edgar-santana-257099788-18032309.jpg" width="100px"/>
+
+        <div class="content-container">
+            <h1>Hello, I'm Jim!</h1>
+            <p>
+                I write short, funt articles about the
+                journeys I take as a photographer.
+            </p>
         </div>
-        <div class="column3">
-            <h3>This is my column 3</h3>
-            <img src="../images/pexels-gaborbalazs97-20433045.jpg" width="100px"/>
+    </div>
+
+    <div class="featured">
+        <h2>Featured Photos</h2>
+        <div class="single-column-layout grid">
+            <p id="p1">Some of my favorite photos!</p>
         </div>
     </div>
 </body>
